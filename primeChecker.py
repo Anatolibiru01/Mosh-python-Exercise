@@ -1,4 +1,4 @@
-def prime_check(x):
+def prime_check(x):  # for onle numbers less than 500
     if x % 2 != 0 or x == 2:
         if x < 9 and (x % 2 == 0 or x % 3 == 0 or x % 5 == 0 or x % 7 == 0):
             return f"{x} is a prime number"
